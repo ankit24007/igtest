@@ -1,8 +1,8 @@
 <?php
 
 // load ENV file
-$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__, 1));
-$dotenv->load();
+// $dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__, 1));
+// $dotenv->load();
 
 include_once(__DIR__.'/config.php');
 include_once(__DIR__.'/dbconfig.php');
